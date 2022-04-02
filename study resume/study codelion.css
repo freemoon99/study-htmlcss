@@ -53,3 +53,19 @@ footer {
     border: 1px solid #ebebeb;
     box-shadow: 0 1px 20px 0 rgba(0,0,0,0.1);
 }
+/* step 9 */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+/* 폰트는 구글에서 검색 */
+* {
+    font-family: 'Montserrat';
+}
+/* '*'은 이 문서 모두에 해당하는 문법이다 라는 것을 알림 */
+
+body,h1,h2{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    min-width: fit-content;
+}
